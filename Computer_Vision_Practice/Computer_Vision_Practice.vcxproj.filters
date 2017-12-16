@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\1 - Introduction to Computer Vision">
+      <UniqueIdentifier>{fffa1e0b-253d-47af-ad06-642b64abd45b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2 - Histogram manipulation">
+      <UniqueIdentifier>{1a3054ff-93e3-4a25-8583-7ced97eb94ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3 - Convolution">
+      <UniqueIdentifier>{0191686c-2de9-46d3-8a43-2a5503b0d161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\4 - Feature Extraction">
+      <UniqueIdentifier>{24a20f2f-929f-4bb0-ac32-783be62b0bec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\5 - Feature Extraction">
+      <UniqueIdentifier>{7574deab-aa0b-462f-a95d-a0a2ab3ca7e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\6 - Matching in Computer Vision">
+      <UniqueIdentifier>{2b96b520-c26b-4c80-874e-a4d6f6936e6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\7 - Motion Detection">
+      <UniqueIdentifier>{b94153d2-6843-4f5c-8788-f0bc470fea74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\8 - Motion Detection">
+      <UniqueIdentifier>{a4e856dc-b7de-46d2-ac89-be5a20ff629e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\9 - Features Matching">
+      <UniqueIdentifier>{e945b595-68cd-47b9-9051-8aa1309c2db6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\10 - Haar-Like Object Recognition">
+      <UniqueIdentifier>{52ed67b9-6bc6-424e-964e-c6594624b6f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\11 - Kalman Tracking">
+      <UniqueIdentifier>{ddef7853-6e33-4bae-8a90-f9c2256a3495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\12 - Particle Tracking">
+      <UniqueIdentifier>{d79cf4e5-26f6-414a-a067-eaa5f8ef9352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\13 - Meanshift Tracking">
+      <UniqueIdentifier>{9539f7a4-7bba-4257-99a9-a48a4e3aa64a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\14 - K-mean_C-Mean">
+      <UniqueIdentifier>{9c9d7bac-c2ce-4d4a-89b7-2d94f67aa475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\15 - Neural Network">
+      <UniqueIdentifier>{33e5bcc4-7cf9-4928-b270-ae85e4d091a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleFilter.hpp">
+      <Filter>Source Files\12 - Particle Tracking</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoWriter.cpp">
+      <Filter>Source Files\1 - Introduction to Computer Vision</Filter>
+    </ClCompile>
+    <ClCompile Include="brightness.cpp">
+      <Filter>Source Files\2 - Histogram manipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="histogram.cpp">
+      <Filter>Source Files\2 - Histogram manipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="histogram equalization.cpp">
+      <Filter>Source Files\2 - Histogram manipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="thresholding.cpp">
+      <Filter>Source Files\2 - Histogram manipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="morphological.cpp">
+      <Filter>Source Files\2 - Histogram manipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Low Pass Filter.cpp">
+      <Filter>Source Files\4 - Feature Extraction</Filter>
+    </ClCompile>
+    <ClCompile Include="High Pass Filter.cpp">
+      <Filter>Source Files\4 - Feature Extraction</Filter>
+    </ClCompile>
+    <ClCompile Include="Contour.cpp">
+      <Filter>Source Files\4 - Feature Extraction</Filter>
+    </ClCompile>
+    <ClCompile Include="Harris Detector.cpp">
+      <Filter>Source Files\6 - Matching in Computer Vision</Filter>
+    </ClCompile>
+    <ClCompile Include="Shi-Tomasi Detector.cpp">
+      <Filter>Source Files\6 - Matching in Computer Vision</Filter>
+    </ClCompile>
+    <ClCompile Include="Surf Matcher.cpp">
+      <Filter>Source Files\6 - Matching in Computer Vision</Filter>
+    </ClCompile>
+    <ClCompile Include="motion detection 1.cpp">
+      <Filter>Source Files\7 - Motion Detection</Filter>
+    </ClCompile>
+    <ClCompile Include="motion detection 2.cpp">
+      <Filter>Source Files\7 - Motion Detection</Filter>
+    </ClCompile>
+    <ClCompile Include="motion detection 3.cpp">
+      <Filter>Source Files\7 - Motion Detection</Filter>
+    </ClCompile>
+    <ClCompile Include="motion object.cpp">
+      <Filter>Source Files\7 - Motion Detection</Filter>
+    </ClCompile>
+    <ClCompile Include="OpticalFlow.cpp">
+      <Filter>Source Files\8 - Motion Detection</Filter>
+    </ClCompile>
+    <ClCompile Include="OpticalFlow Field.cpp">
+      <Filter>Source Files\8 - Motion Detection</Filter>
+    </ClCompile>
+    <ClCompile Include="object detection.cpp">
+      <Filter>Source Files\10 - Haar-Like Object Recognition</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab6 KalmanFilter.cpp">
+      <Filter>Source Files\11 - Kalman Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="First question.cpp">
+      <Filter>Source Files\11 - Kalman Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleFilter.cpp">
+      <Filter>Source Files\12 - Particle Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\12 - Particle Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab8 Meanshift tracking.cpp">
+      <Filter>Source Files\13 - Meanshift Tracking</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
